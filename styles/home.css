@@ -1,0 +1,31 @@
+.home-body{
+    background-image: url(../img/EGITOOOOO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+main{
+    margin-inline: auto;
+}
+#home-h1{
+    display: flex;
+    font-size: 10.8rem;
+    width: 39.7rem;
+    color: #fffbeb;
+    border: 2px solid;
+}
+
+#home-div{
+    display: flex;
+    border: 2px solid red;
+    background-color: rgba(252, 184, 111, 0.75);
+    border-radius: 25px;
+    max-width: 50rem;
+    padding: 1rem;
+
+    p{
+        line-height: 1.3;
+    }
+}
