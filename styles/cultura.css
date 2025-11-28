@@ -1,6 +1,11 @@
-.heranca, .gastronomia, .danca{
-    margin-top: 14rem;
+.heranca, .gastronomia, .danca, .cultura1 {
+    margin-bottom: 5rem;
+    display: flex;            
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+
 
     h2{
         font-size: 4rem;
@@ -38,7 +43,7 @@
 
     #arquitetura, #religiao, #mumification{
         position: absolute;
-        top: 162.46rem;
+        top: 152.46rem;
     }
 
     #arquitetura, #arquitetura-p{
@@ -53,7 +58,7 @@
 
     #arquitetura-p, #religiao-p, #mumification-p{
         position: absolute;
-        top: 180.46rem;
+        top: 169.46rem;
         width: 26.75rem;
     }
 }
@@ -70,7 +75,7 @@ img.centro{
 }
 
 .danca{
-    margin-bottom: 15rem;
+    margin-bottom: 11rem;
 }
 
 .gastronomia, .danca{
@@ -80,4 +85,9 @@ img.centro{
         color: #fffbeb;
         margin-top: 1rem;
     }
+}
+.gastronomia{
+        ul{
+            margin-bottom: 8rem;
+        }
 }

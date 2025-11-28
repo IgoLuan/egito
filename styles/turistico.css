@@ -1,0 +1,41 @@
+.turista, .nilo, .museu, .piramide{
+    min-height: 100vh;
+    display: flex;            
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    h2{
+        font-size: 4rem;
+        color: #fffbeb;
+        margin-bottom: 4rem;
+    }
+}
+
+.turista{
+    text-align: center;
+    p{
+        font-size: 2rem;
+        color: #fffbeb;
+        margin-top: 4rem;
+        max-width: 80rem;
+        text-align: center;
+    }
+}
+
+.piramide, .museu, .nilo{
+    margin-top: 11rem;
+    p{
+        font-size: 2rem;
+        color: #fffbeb;
+        margin-top: 4rem;
+        max-width: 80rem;
+        text-align: center;
+    }
+}
+
+.nilo{
+    margin-bottom: 11rem;
+}

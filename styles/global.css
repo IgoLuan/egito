@@ -10,7 +10,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
-#page{
+.page{
     max-width: 1120px;
     margin-inline: auto;
 }

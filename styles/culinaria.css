@@ -1,0 +1,95 @@
+.culinaria{
+    p{
+        font-size: 2rem;
+        color: #fffbeb;
+        margin-top: 4rem;
+        max-width: 80rem;
+        text-align: center;
+    }
+}
+
+.ingredientes, .bebidas{
+    min-height: 100vh;
+    display: flex;            
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+
+
+    h2{
+        font-size: 4rem;
+        color: #fffbeb;
+        margin-bottom: 1rem;
+    }
+    p{
+        font-size: 2rem;
+        color: #fffbeb;
+        margin-top: 4rem;
+        max-width: 80rem;
+        text-align: center;
+    }
+    #cha-preto, #sahlab, #karkade, #molhos, #ervas, #graos, #vegetais, #cereais{
+        width: 28.4rem;
+        height: 18.9rem;
+        border-radius: 2.5rem;
+        position: absolute;
+    }
+    #sahlab-p, #cha-preto-p, #karkade-p, #molhos-p, #ervas-p, #graos-p, #vegetais-p, #cereais-p{
+        position: absolute;
+        width: 28.4rem;
+        height: 18.9rem;
+    }
+
+    #ervas, #graos, #cereais{
+        top: 140.73rem;
+    }
+    #ervas-p, #graos-p, #cereais-p{
+        top: 156.73rem;
+    }
+
+    #molhos, #vegetais{
+        top: 180.6rem;
+    }
+    #molhos-p, #vegetais-p{
+        top: 196.6rem;
+    }
+
+    #cha-preto, #sahlab, #karkade{
+        top: 230.4rem;
+    }
+    #cha-preto-p, #sahlab-p, #karkade-p{
+        top: 246.4rem;
+    }
+
+    #ervas, #ervas-p{
+        left: 86.69rem;
+    }
+    #cereais, #cereais-p{
+        left: 53.84rem;
+    }
+    #graos, #graos-p{
+        left: 20.87rem;
+    }
+    #molhos, #molhos-p{
+        right: 73.06rem;
+    }
+    #vegetais, #vegetais-p{
+        right: 34.67rem;
+    }
+
+    #cha-preto-p, #cha-preto{
+        right: 22.96rem;
+    }
+    #sahlab-p, #sahlab{
+        right: 85.22rem;
+    }
+    #karkade-p, #karkade{
+        right: 53.98rem;
+    }
+}
+
+.bebidas{
+    margin-top: 40rem;
+}
