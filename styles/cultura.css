@@ -26,56 +26,30 @@
 }
     
 .heranca, .gastronomia, .danca{
+    margin-top: 8rem;
     p{
         font-size: 2rem;
         color: #fffbeb;
-        margin-top: 4rem;
+        margin-top: 2rem;
         max-width: 80rem;
         text-align: center;
     }
 
     img{
-        display: flex;
+        display: block;
         width: 28.4rem;
-        height: 18.9rem;
+        height: auto;
+        margin: 0 auto;
         border-radius: 2.5rem;
-    }
-
-    #arquitetura, #religiao, #mumification{
-        position: absolute;
-        top: 152.46rem;
-    }
-
-    #arquitetura, #arquitetura-p{
-        left: 19.78rem;
-    }
-    #religiao, #religiao-p{
-        left: 53.81rem;
-    }
-    #mumification, #mumification-p{
-        left: 88.41rem;
-    }
-
-    #arquitetura-p, #religiao-p, #mumification-p{
-        position: absolute;
-        top: 169.46rem;
-        width: 26.75rem;
     }
 }
 
 img.centro{
+    display: block;
     border-radius: 2.5rem;
     margin: 0 auto;
     width: 95rem;
     height: 46rem;
-}
-
-.gastronomia{
-    margin-top: 50rem;
-}
-
-.danca{
-    margin-bottom: 11rem;
 }
 
 .gastronomia, .danca{
@@ -86,8 +60,9 @@ img.centro{
         margin-top: 1rem;
     }
 }
-.gastronomia{
-        ul{
-            margin-bottom: 8rem;
-        }
+
+.elementos-heranca{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
 }

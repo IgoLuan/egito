@@ -28,13 +28,17 @@ h1{
     color: #fffbeb;
 }
 
-header ul {
-    border: 2px solid;
+header {
+    width: 100%;
+    display: block;
+
+    ul{
     display: flex;
     text-decoration: none;
     justify-content: right;
     margin-bottom: 9rem;
     margin-top: 5rem;
+    }
 
     li:last-child{
         margin-right: 7rem;
@@ -48,4 +52,15 @@ header ul a,header li{
     margin-left: 2.5rem;
     color: #fffbeb;
     font-size: 1.5rem;
+}
+
+.elemento{
+    align-items: center;
+    max-width: 28rem;
+
+    img{
+        display: block;
+        border-radius: 2.5rem;
+        margin-top: 2rem;
+    }
 }

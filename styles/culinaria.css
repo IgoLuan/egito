@@ -1,15 +1,5 @@
-.culinaria{
-    p{
-        font-size: 2rem;
-        color: #fffbeb;
-        margin-top: 4rem;
-        max-width: 80rem;
-        text-align: center;
-    }
-}
-
-.ingredientes, .bebidas{
-    min-height: 100vh;
+.ingredientes, .bebidas, .culinaria{
+    margin-bottom: 8rem;
     display: flex;            
     flex-direction: column;
     justify-content: center;
@@ -26,70 +16,26 @@
     p{
         font-size: 2rem;
         color: #fffbeb;
-        margin-top: 4rem;
+        margin-top: 2rem;
         max-width: 80rem;
         text-align: center;
     }
-    #cha-preto, #sahlab, #karkade, #molhos, #ervas, #graos, #vegetais, #cereais{
+}
+
+.ingredientes, .bebidas{
+    img{
+        display: block;
         width: 28.4rem;
-        height: 18.9rem;
+        height: auto;
+        margin: 0 auto;
         border-radius: 2.5rem;
-        position: absolute;
-    }
-    #sahlab-p, #cha-preto-p, #karkade-p, #molhos-p, #ervas-p, #graos-p, #vegetais-p, #cereais-p{
-        position: absolute;
-        width: 28.4rem;
-        height: 18.9rem;
-    }
-
-    #ervas, #graos, #cereais{
-        top: 140.73rem;
-    }
-    #ervas-p, #graos-p, #cereais-p{
-        top: 156.73rem;
-    }
-
-    #molhos, #vegetais{
-        top: 180.6rem;
-    }
-    #molhos-p, #vegetais-p{
-        top: 196.6rem;
-    }
-
-    #cha-preto, #sahlab, #karkade{
-        top: 230.4rem;
-    }
-    #cha-preto-p, #sahlab-p, #karkade-p{
-        top: 246.4rem;
-    }
-
-    #ervas, #ervas-p{
-        left: 86.69rem;
-    }
-    #cereais, #cereais-p{
-        left: 53.84rem;
-    }
-    #graos, #graos-p{
-        left: 20.87rem;
-    }
-    #molhos, #molhos-p{
-        right: 73.06rem;
-    }
-    #vegetais, #vegetais-p{
-        right: 34.67rem;
-    }
-
-    #cha-preto-p, #cha-preto{
-        right: 22.96rem;
-    }
-    #sahlab-p, #sahlab{
-        right: 85.22rem;
-    }
-    #karkade-p, #karkade{
-        right: 53.98rem;
     }
 }
 
-.bebidas{
-    margin-top: 40rem;
+.elementos-ingredientes, .elementos-bebidas{
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
 }

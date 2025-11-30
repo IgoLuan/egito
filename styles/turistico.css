@@ -1,5 +1,5 @@
 .turista, .nilo, .museu, .piramide{
-    min-height: 100vh;
+    margin-bottom: 5rem;
     display: flex;            
     flex-direction: column;
     justify-content: center;
