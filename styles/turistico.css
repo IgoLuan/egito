@@ -39,3 +39,12 @@
 .nilo{
     margin-bottom: 11rem;
 }
+
+#posicao{
+    position: absolute;
+    top: 18rem;
+    right: 12rem;
+    img{
+        width: 25.4rem;
+    }
+}

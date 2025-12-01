@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
-    <title>Document</title>
+    <title>Cadastro</title>
 </head>
-<body>
+<body class="cadastro-body">
     <header>
             <nav>
                 <ul>
@@ -37,3 +37,31 @@
                 </ul>
             </nav>
     </header>
+
+    <div class="page">
+        <main id="cadastro-main">
+            <h1 id="cadastro-h1">Cadastre-se já!</h1>
+            <div id="cadastro-div">
+                <form>
+                    <div>
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" placeholder="Digite seu nome..." id="nome" required minlength="3" maxlength="20">
+                    </div>
+
+                    <div>
+                        <label for="email">E-Mail:</label>
+                        <input type="email" placeholder="Digite seu E-Mail..." id="email" required>
+                    </div>
+
+                    <div>
+                        <label for="senha">Senha:</label>
+                        <input type="password" placeholder="Digite sua senha..." id="senha" required>
+                    </div>
+
+                    <button class="cadastro-b">CRIAR CONTA</button>
+                </form>
+        </div>
+        </main>
+    </div>
+</body>
+</html>

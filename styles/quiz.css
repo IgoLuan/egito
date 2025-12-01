@@ -1,0 +1,51 @@
+.quiz{
+    background: #fb8922;
+    padding: 2rem;
+    border-radius: 2.5rem;
+    margin-bottom: 1.5rem;
+
+    h2{
+        font-size: 2.6rem;
+        color: #fffbeb;
+    }
+
+    label {
+        display: block;
+        font-size: 2rem;
+        color: #fffbeb;
+    }
+
+    input {
+        margin-left: 1rem;
+    }
+
+
+    input[type="checkbox"] + label,
+    input[type="radio"] + label {
+        display: inline;
+    }
+
+    select {
+        padding: 1rem;
+        border-radius: 1rem;
+        outline: none;
+    }
+}
+
+.tabom{
+    background-color: #fcb86f;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin-block: 2rem;
+}
+
+button {
+    width: 10rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background: #fb8922;
+    color: #FFFbeb;
+    font-weight: 700;
+}

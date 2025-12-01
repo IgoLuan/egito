@@ -1,0 +1,53 @@
+.cadastro-body{
+    background-image: url(../img/EGITOOOOO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#cadastro-h1{
+    font-size: 5rem;
+    margin-top: 18rem;
+    color: #fffbeb;
+    text-align: left;
+}
+
+#cadastro-div{
+    border-radius: 25px;
+    width: 45rem;
+    padding: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    background-color: rgba(254, 237, 213, 0.75);
+
+    p{
+        line-height: 1.3;
+        color: #fffbeb;
+    }
+
+    label{
+        color: #fb8922;
+        font-size: 2rem;
+    }
+
+    input{
+        width: 40rem;
+    }
+}
+#cadastro-main{
+    display: flex;
+    gap: 17rem;
+}
+
+#email, #senha, #nome{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid #fb8922 .5px;
+    outline: none;
+    margin-bottom: 4rem;
+}
+
+.cadastro-b{
+    padding: 2rem;
+    width: 41rem;
+    text-align: center;
+}
